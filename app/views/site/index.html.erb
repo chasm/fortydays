@@ -1,0 +1,46 @@
+<h1>Seven Days of Sin</h1>
+
+<ol class="sins">
+  <li>
+    <div><a href="/pride">Pride</a></div>
+    <div id="pride" class="description">
+      <%= if @partial == "pride" then render partial: "partials/pride" end %>
+    </div>
+  </li>
+  <li>
+    <div><a href="/envy">Envy</a></div>
+    <div id="envy" class="description">
+      <%= if @partial == "envy" then render partial: "partials/envy" end %>
+    </div>
+  </li>
+  <li>
+    <div><a href="/gluttony">Gluttony</a></div>
+    <div id="gluttony" class="description">
+      <%= if @partial == "gluttony" then render partial: "partials/gluttony" end %>
+    </div>
+  </li>
+  <li>
+    <div><a href="/lust">Lust</a></div>
+    <div id="lust" class="description">
+      <%= if @partial == "lust" then render partial: "partials/lust" end %>
+    </div>
+  </li>
+  <li>
+    <div><a href="/anger">Anger</a></div>
+    <div id="anger" class="description">
+      <%= if @partial == "anger" then render partial: "partials/anger" end %>
+    </div>
+  </li>
+  <li>
+    <div><a href="/greed">Greed</a></div>
+    <div id="greed" class="description">
+      <%= if @partial == "greed" then render partial: "partials/greed" end %>
+    </div>
+  </li>
+  <li>
+    <div><a href="/sloth">Sloth</a></div>
+    <div id="sloth" class="description">
+      <%= if @partial == "sloth" then render partial: "partials/sloth" end %>
+    </div>
+  </li>
+</ol>
